@@ -1,0 +1,5 @@
+﻿  TicketSystem.cpp
+C:\Users\fran\source\repos\Movie\Movie\TicketSystem.cpp(47,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\fran\source\repos\Movie\Movie\TicketSystem.cpp(69): warning C4715: 'TicketSystem::FindMovie': not all control paths return a value
+C:\Users\fran\source\repos\Movie\Movie\TicketSystem.cpp(89): warning C4715: 'TicketSystem::ShowSeats': not all control paths return a value
+  Movie.vcxproj -> C:\Users\fran\source\repos\Movie\Debug\Movie.exe
