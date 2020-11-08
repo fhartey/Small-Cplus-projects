@@ -1,0 +1,3 @@
+﻿  CompressionAlgo.cpp
+C:\Users\fran\source\repos\CompressionAlgo\CompressionAlgo\CompressionAlgo.cpp(199,29): warning C4309: 'initializing': truncation of constant value
+  CompressionAlgo.vcxproj -> C:\Users\fran\source\repos\CompressionAlgo\Debug\CompressionAlgo.exe
