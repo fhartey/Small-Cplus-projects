@@ -81,3 +81,27 @@ What would you want to see more into your new role
 
 What do you must like and dislike of your current role
 
+
+merge a linked list using Java api
+thread pool
+thread join and fork
+microsevices design patterns
+star pattern behavioral interview
+
+String or stack based easy leetcode
+
+Then in the technical part they told me to write a program which do some calculations with a list of intigers.
+
+Tell me a challenging project you were a part of.
+
+How would you sort a list? Follow up : What is the most efficient way to find a number in a list
+
+What is a REST API?
+
+Tell me about you as a person
+
+Which frameworks do you prefer to use for x type of development
+
+ basic algorithm questions and one system design question.
+
+ Explain the process of a user visiting a web page. What HTTP methods are involved?
