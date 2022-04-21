@@ -1,0 +1,83 @@
+# Basic get to know your self questions 1) What would you want to see more into your new role
+
+I would want  to see more
+
+
+2) What do you must like and dislike of your current role
+
+4 principals of OOP
+1) what is Encaplsation 
+Encaplastion allows us to  take a piece of code that is repetitive and put it into a function. 
+Usually we would want to make the function as reusable as possible so that we are able to call that function in other parts of are program, 
+and allow it to take parameters that give us different resultsIn turn Encapacltion allows for a cleaner and more reusable code base.
+
+2) WHAT IS INHERITANCEInheritance 
+allows us to to inherit or take all of another class functions and properties and use those in a brand new class where we can create new properties in. 
+Basically Inhetrinces allows use to reuse code,  keeping are code base shorter and more ogrinazed.
+
+// This one needs more work of understanding
+3) what is abstraction
+Abstraction is where you have a class with functions that are already create and ready to use.
+ This was you have abstract class that has set functions that already do what they need to do.
+
+Polymorphism can be applied in two simple ways
+Method Overloading
+Method Overriding
+
+1) Method Overloading1.a) When a class has multiple methods with the same names but a different set of parameters, it is called Method overloading. 
+You can proceed with method overloading, only if your methods satisfy any one of the following rules 
+ Have method with the same name and different parameters, or return types.
+
+// this one needs work and more understanding
+
+2) Method Overriding
+1.A)The second way to go ahead with polymorphism is method overriding. This is only possible if a subclass ( or ) sister class has the same method as the parent class.
+ Much like Method overloading, there are also some rules for method overriding to work.
+
+
+What is the difference between abstract class and interface 
+So two different classes have the same method  and one class is used  as interface or is inheritedthe method will need the same parameters and return types,but then inside the function the function can implant different code, and depend on when you create the object and call that function, it will do the implanted code that was done in that septic class.
+
+
+abstact class is where you can have pre named function that are not implented adn have functions that are implmented
+where then a class can intehit and the functions that are not implmented that class can create there own implention of them
+and where the ones that are implented that class will now be able to implemnt them as well
+
+Where as interface all the function are not implented yet, and is used for a class to inhiterit it, and make its own implention of those set functigons
+
+
+
+
+What is a Singleton
+a class where you tend to only have a single instance of that class, or struct
+
+mainly to orgainze a bunch of global varibles and static functions that may pr may not act apon those varibles
+
+no constructor or we will need to instanitate it.
+
+Use unique_ptr when you want a single pointer to an object that will be reclaimed when that single pointer is destroyed. this unqiue pointer can not
+coppy other unique pointers
+
+Use shared_ptr when you want multiple pointers to the same resource. Shared pinters can always equal eachoter hae mutiples the ref counter will go up 
+
+
+
+Intermediate experience with modern C++ 
+(smart pointers, containers, maps), 
+and use of abstract classes with pure virtual methods
+
+
+What is the most proudest project you have worked on?
+The most proudest project that i have worked on was  createing the radar control for my current employer
+
+what was a challenging thing that you had to over come in the project?
+
+The most chllenging part i had to over come was fitting these control in the legacy system, working on very lose base requirments from the cutmoer
+this was challenging because the custimer wasnt sure want they wanted so there were my re itterations of itwhile we tested it to gether and i would have to come up with 
+solutions on the fly to give them exactly what they wanted
+
+
+What would you want to see more into your new role
+
+What do you must like and dislike of your current role
+
