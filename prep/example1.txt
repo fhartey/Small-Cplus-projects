@@ -31,12 +31,15 @@ You can proceed with method overloading, only if your methods satisfy any one of
 // this one needs work and more understanding
 
 2) Method Overriding
-1.A)The second way to go ahead with polymorphism is method overriding. This is only possible if a subclass ( or ) sister class has the same method as the parent class.
+1.A)The second way to go ahead with polymorphism is method overriding. This is only possible if a subclass ( or ) 
+sister class has the same method as the parent class.
  Much like Method overloading, there are also some rules for method overriding to work.
 
 
 What is the difference between abstract class and interface 
-So two different classes have the same method  and one class is used  as interface or is inheritedthe method will need the same parameters and return types,but then inside the function the function can implant different code, and depend on when you create the object and call that function, it will do the implanted code that was done in that septic class.
+So two different classes have the same method  and one class is used  as interface or is inheritedthe method will 
+need the same parameters and return types,but then inside the function the function can implant different code, 
+and depend on when you create the object and call that function, it will do the implanted code that was done in that septic class.
 
 
 abstact class is where you can have pre named function that are not implented adn have functions that are implmented
@@ -51,7 +54,7 @@ Where as interface all the function are not implented yet, and is used for a cla
 What is a Singleton
 a class where you tend to only have a single instance of that class, or struct
 
-mainly to orgainze a bunch of global varibles and static functions that may pr may not act apon those varibles
+mainly to orgainze a bunch of global varibles and static functions that may or may not act apon those varibles
 
 no constructor or we will need to instanitate it.
 
@@ -73,7 +76,7 @@ The most proudest project that i have worked on was  createing the radar control
 what was a challenging thing that you had to over come in the project?
 
 The most chllenging part i had to over come was fitting these control in the legacy system, working on very lose base requirments from the cutmoer
-this was challenging because the custimer wasnt sure want they wanted so there were my re itterations of itwhile we tested it to gether and
+this was challenging because the custimer wasnt sure want they wanted so there were many re itterations of itwhile we tested it to gether and
  i would have to come up with  solutions on the fly to give them exactly what they wanted
 
 
@@ -124,7 +127,7 @@ and your new variable will hold that copy.
 If your new variable is modified, the original object will not be modified,
 as it is physically a different thing. eg int b = 10; int a = b.
 
-  function pointers, 
+  what are function pointers ( void pointers?)
   Function pointers allows for you functions to become pointers, so you can have a varible set to that void function and 
   what it does it take the instructions of that function and stores it in are varible
 
@@ -160,7 +163,80 @@ Once you can’t do this anymore break it up and then redo the process until it�
 
 
 If the array is sorted I would use binary search
-Which is when we start in the middle of the array and compare it the number we want to find, if it isn’t the number we know can get rid of that half then repeat the process until we find the number
+Which is when we start in the middle of the array and compare it the number we want to find, if it isn’t the number we 
+know can get rid of that half then repeat the process until we find the number
+
+Merge sort is better for larger satay sets quick sort is better for small data sets
+
+What is your greatest weakness?
+
+a big weakness of mine is i work to hard, once i find a problem very intresting, and hard to solve, i feel as if i 
+can get every into it, and will continue working until i have figure out the problem.
+Sadly because thois i sometimes will  neglect my friends and family, and other responseabilites
 
 
-    Merge sort is better for larger satay sets quick sort is better for small data sets
+The constructor is a member function that is executed automatically whenever an object is created. Constructors have the same name 
+as the class of which they are members so that compiler knows that the member function is a constructor. 
+And no return type is used for constructors.
+
+Compare compile time polymorphism
+now at compile time which method will be called.
+It provides fast execution because it is known at the compile time.
+It is achieved by function overloading and operator overloading.
+
+Runtime polymorphism
+In this method, we come to know at run time which method will be called. 
+The call is not resolved by the compiler.
+
+It provides slow execution compared to compile-time polymorphism because it is known at the run time.
+t can be achieved by virtual functions and pointers.
+
+What do you know about friend class and friend function?
+
+A friend class can access private, protected, and public members of other classes in which it is declared as friends.
+Like friend class, friend function can also access private, protected, and public members. But, Friend functions are not member functions.
+
+What are the C++ access specifiers?
+Public: All data members and member functions are accessible outside the class.
+Protected: All data members and member functions are accessible inside the class and to the derived class.
+Private: All data members and member functions are not accessible outside the class.
+
+What do you mean by abstraction in C++?
+Abstraction is the process of showing the essential details to the user and hiding the details which we don’t want to show to the user or 
+hiding the details which are irrelevant to a particular user
+
+Is deconstructor overloading possible? If yes then explain and if no then why?
+No destructor overloading is not possible. Destructors take no arguments, 
+so there’s only one way to destroy an object. That’s the reason destructor overloading is not possible.
+
+What do you mean by call by value and call by reference?
+
+In call by value method, we pass a copy of the parameter is passed to the functions. 
+For these copied values a new memory is assigned and changes made to these values do not reflect the variable in the main function.
+
+In call by reference method, we pass the address of the variable and the address is used to access the actual 
+argument used in the function call. So changes made in the parameter alter the passing argument.
+
+What is an abstract class and when do you use it?
+A class is called an abstract class whose objects can never be created.
+ Such a class exists as a parent for the derived classes. We can make a class abstract by placing a pure virtual function in the class.
+
+
+ What are the static members and static member functions?
+When a variable in a class is declared static, space for it is allocated for the lifetime of the program. No matter how many objects of that class have been created, 
+there is only one copy of the static member. So same static member can be accessed by all the objects of that class.
+
+What is "this" pointer in C++?
+
+The member functions of every object have a pointer named this, which points to the object itself. T
+he value of this is set to the address of the object for which it is called. It can be used to access the data in the object it points to.
+
+How do you allocate and deallocate memory in C++
+he new operator is used for memory allocation and deletes operator is used for memory deallocation in
+
+
+
+
+
+
+
