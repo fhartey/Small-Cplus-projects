@@ -34,6 +34,11 @@ You can proceed with method overloading, only if your methods satisfy any one of
 1.A)The second way to go ahead with polymorphism is method overriding. This is only possible if a subclass ( or ) 
 sister class has the same method as the parent class.
  Much like Method overloading, there are also some rules for method overriding to work.
+ so if your subclass has a method name function1
+ Then class A, and B inheited or extend that Then they can call that same function however you can changes
+ what that function does when there call so A and B could have two different implenations of Function 1
+ and depending on which class is called, Then that implentation of it will happens
+
 
 
 What is the difference between abstract class and interface 
@@ -47,6 +52,8 @@ where then a class can intehit and the functions that are not implmented that cl
 and where the ones that are implented that class will now be able to implemnt them as well
 
 Where as interface all the function are not implented yet, and is used for a class to inhiterit it, and make its own implention of those set functigons
+An interface is an empty shell. There are only the signatures of the methods, which implies that the methods do not have a body. The interface can't do anything. It's just a pattern.
+
 
 
 
@@ -74,10 +81,6 @@ What is the most proudest project you have worked on?
 The most proudest project that i have worked on was  createing the radar control for my current employer
 
 what was a challenging thing that you had to over come in the project?
-
-The most chllenging part i had to over come was fitting these control in the legacy system, working on very lose base requirments from the cutmoer
-this was challenging because the custimer wasnt sure want they wanted so there were many re itterations of itwhile we tested it to gether and
- i would have to come up with  solutions on the fly to give them exactly what they wanted
 
 
 What would you want to see more into your new role
@@ -143,8 +146,8 @@ as it is physically a different thing. eg int b = 10; int a = b.
 
   A pointer is a variable that stores the memory address of an object. 
   Pointers are used extensively in both C and C++ for three main purposes: to 
-  allocate new objects on the heap, to pass functions to other functions. to i
-  terate over elements in arrays or other data structures.
+  allocate new objects on the heap, to pass functions to other functions. to 
+  iterate over elements in arrays or other data structures.
 
    reference variable is an alias, that is, another name for an already existing variable. 
    Once a reference is initialized with a variable, either the variable name or the 
@@ -167,13 +170,6 @@ Which is when we start in the middle of the array and compare it the number we w
 know can get rid of that half then repeat the process until we find the number
 
 Merge sort is better for larger satay sets quick sort is better for small data sets
-
-What is your greatest weakness?
-
-a big weakness of mine is i work to hard, once i find a problem very intresting, and hard to solve, i feel as if i 
-can get every into it, and will continue working until i have figure out the problem.
-Sadly because thois i sometimes will  neglect my friends and family, and other responseabilites
-
 
 The constructor is a member function that is executed automatically whenever an object is created. Constructors have the same name 
 as the class of which they are members so that compiler knows that the member function is a constructor. 
@@ -217,10 +213,6 @@ For these copied values a new memory is assigned and changes made to these value
 In call by reference method, we pass the address of the variable and the address is used to access the actual 
 argument used in the function call. So changes made in the parameter alter the passing argument.
 
-What is an abstract class and when do you use it?
-A class is called an abstract class whose objects can never be created.
- Such a class exists as a parent for the derived classes. We can make a class abstract by placing a pure virtual function in the class.
-
 
  What are the static members and static member functions?
 When a variable in a class is declared static, space for it is allocated for the lifetime of the program. No matter how many objects of that class have been created, 
@@ -240,3 +232,64 @@ he new operator is used for memory allocation and deletes operator is used for m
 
 
 
+ABOUT me
+Tell us about yourself?
+Currently im working in a c++ backend software role doing devlopment for the
+aegis system
+My day consits of wiritng new devlopment features for the system and doing bug fixes, and 
+
+Before this job i was mianly in college working on my CS degree, 
+while also working part time for another company doing C#
+
+currently for my future goals is to find more challeging opputines that can help 
+me grow as a software devloper
+
+Why do you want to work at Comcast?
+I want to work at comcast because comcast seems like an exciting company
+ looking from the outside it seems like theres a lot of oputiny for devlpoment 
+ espically with stream services, and cable tv and movies becoming bigger then ever before
+
+ What is your greatest strength
+I would have to say my greatest strength is never giving up and always trying to 
+aceive contnous growth
+when i recive a problem i always make sure to complete it no matter the challenges
+that it my face, and im always on my free time trying to learn new and more techologies to stay up with current
+times and best partices
+
+
+What is your greatest weakness?
+
+a big weakness of mine is i work to hard, once i find a problem very intresting, and hard to solve, i feel as if i 
+can get every into it, and will continue working until i have figure out the problem.
+Sadly because thois i sometimes will  neglect my friends and family, and other responseabilites
+
+Why should we hire you?
+i believe you should hire me because i already have decent work expirence in 
+c++ and working in a big code base, that is currently moved into micro services
+I have knowedlge of working in a agile envoriment with a team.
+and using version control tools
+with that being said i think my skill set would be a good asset to this position
+
+
+Who are Comcast’s competitors?
+AT&T, Dish, Charter Spectrum, Verizon, T-Mobile (US), EarthLink, Liberty Global.
+
+What motivates you?
+learning new things and tech that is in our field
+Coming up with creative ideas to improve something, or make something new
+Finding a way to solve a problem, or overcome a challenge
+
+ How did you find this job?
+ i beleive it was indeed and then i sumbited my resume from there
+
+ Where do you see yourself in 5 years
+ Currently id see myself hoefully being in a senior role  as a c++ devloper
+ taking on more responsites  and hopefully maybe being able to lead a new project one day
+
+ What do you like most about your current or last job
+ I honestly love everything about my job and have great time here
+ the only thing is i feel that I have learned all I can in that role and are now looking for new challenges.
+
+ The most chllenging part i had to over come was fitting these control in the legacy system, working on very lose base requirments from the cutmoer
+this was challenging because the custimer wasnt sure want they wanted so there were many re itterations of itwhile we tested it to gether and
+ i would have to come up with  solutions on the fly to give them exactly what they wanted
