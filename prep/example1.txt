@@ -293,3 +293,97 @@ Finding a way to solve a problem, or overcome a challenge
  The most chllenging part i had to over come was fitting these control in the legacy system, working on very lose base requirments from the cutmoer
 this was challenging because the custimer wasnt sure want they wanted so there were many re itterations of itwhile we tested it to gether and
  i would have to come up with  solutions on the fly to give them exactly what they wanted
+
+
+What are the different data types present in C++?
+The 4 data types in C++ are given below:
+
+Primitive Datatype(basic datatype). Example- char, short, int, float, long, double, bool, etc.
+Derived datatype. Example- array, pointer, etc.
+Enumeration. Example- enum
+User-defined data types. Example- structure, class, etc
+
+
+They had asked what function overloading is, what function overriding is, and which one is 
+
+static vs dynamic
+Static varibles are only one per object so if object A, changes 3 it changes for all objects
+including A, and B
+
+Dynamic
+Varbiles are not set per object so object A and B could have the same
+varbile name but two different values for that varbile 
+#include <iostream>
+class A {
+ public:
+  int one = 2;
+  int two = 9;
+  static int three;
+ A(int one1, int two2) : one(one1), two(two2) {};
+ A (){};
+};
+
+int A::three = 0;
+int main() {
+    
+    A _a;
+    A _b;
+    std::cout << _a.one <<std::endl;
+    std::cout << _a.two <<std::endl;
+    _a.three = 8;
+    std::cout << "is now 8: "<< _a.three <<std::endl;
+    _b.three = 6;
+    std::cout << "is now 6: "<< _a.three <<std::endl;
+    return 0;
+}
+
+Function overriding in C++ is a concept by which you can define a function of the same name and the same function 
+signature (parameters and their data types) in both the base class and derived class with a different function definition. 
+It redefines a function of the base class inside the derived class, which overrides the base class function. Function overriding 
+is an implementation of the run-time polymorphism. So, it overrides the function at the run-time of the program.  
+
+Pure Virtual functions
+All derived class must redefine pure virtual function of base class otherwise derived 
+class also becomes abstract just like base class
+
+If derived class do not redefine virtual function of base class, then no compilation
+ error but derived class also becomes abstract just like the base class.
+
+Virtual functions
+Base class having virtual function can be instantiated i.e. its object can be made.
+If derived class do not redefine virtual function of base class, then it does not affect compilation.
+
+Abstaction IS
+means displaying only essential information and hiding the details. Data abstraction refers to providing only 
+essential information about the data to the outside world, hiding the background details or implementation.
+
+So we could usually do this by creating a class that has priavte varibles and have public functions that use those varibles
+so when someone uses are class they can use the private varibles but they can use the function that does use the private varibles.
+
+Abstact class
+The C++ interfaces are implemented using abstract classes and these abstract classes should not be confused with data abstraction
+ which is a concept of keeping implementation details separate from associated data.
+
+A class is made abstract by declaring at least one of its functions as pure virtual function.
+ A pure virtual function is specified by placing "= 0" in its declaration as follows âˆ’
+
+The purpose of an abstract class (often referred to as an ABC) is to provide an appropriate base class from which other classes can inherit.
+ Abstract classes cannot be used to instantiate objects and serves only as an interface. Attempting to 
+instantiate an object of an abstract class causes a compilation error.
+
+What is a abstract class
+an abstact class is a class with at least one pure virtual function. With the pure virtual
+you can implent code in like you would with a virtual function
+when your class inheits a abstract class it needs to make its own implention of its pure virtual function or you will end up in a complation error
+
+
+what is differnce between interface and abstact class
+
+abstarct class can have regular functions that implent code as well as pure virtual functions inside of it
+where as a interface usually only tend to have pure virtual functions only
+
+
+
+what does "THIS" do
+ explicitly marks the object members. this->age 
+instead of_age
