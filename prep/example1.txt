@@ -232,69 +232,6 @@ he new operator is used for memory allocation and deletes operator is used for m
 
 
 
-ABOUT me
-Tell us about yourself?
-Currently im working in a c++ backend software role doing devlopment for the
-aegis system
-My day consits of wiritng new devlopment features for the system and doing bug fixes, and 
-
-Before this job i was mianly in college working on my CS degree, 
-while also working part time for another company doing C#
-
-currently for my future goals is to find more challeging opputines that can help 
-me grow as a software devloper
-
-Why do you want to work at Comcast?
-I want to work at comcast because comcast seems like an exciting company
- looking from the outside it seems like theres a lot of oputiny for devlpoment 
- espically with stream services, and cable tv and movies becoming bigger then ever before
-
- What is your greatest strength
-I would have to say my greatest strength is never giving up and always trying to 
-aceive contnous growth
-when i recive a problem i always make sure to complete it no matter the challenges
-that it my face, and im always on my free time trying to learn new and more techologies to stay up with current
-times and best partices
-
-
-What is your greatest weakness?
-
-a big weakness of mine is i work to hard, once i find a problem very intresting, and hard to solve, i feel as if i 
-can get every into it, and will continue working until i have figure out the problem.
-Sadly because thois i sometimes will  neglect my friends and family, and other responseabilites
-
-Why should we hire you?
-i believe you should hire me because i already have decent work expirence in 
-c++ and working in a big code base, that is currently moved into micro services
-I have knowedlge of working in a agile envoriment with a team.
-and using version control tools
-with that being said i think my skill set would be a good asset to this position
-
-
-Who are Comcast’s competitors?
-AT&T, Dish, Charter Spectrum, Verizon, T-Mobile (US), EarthLink, Liberty Global.
-
-What motivates you?
-learning new things and tech that is in our field
-Coming up with creative ideas to improve something, or make something new
-Finding a way to solve a problem, or overcome a challenge
-
- How did you find this job?
- i beleive it was indeed and then i sumbited my resume from there
-
- Where do you see yourself in 5 years
- Currently id see myself hoefully being in a senior role  as a c++ devloper
- taking on more responsites  and hopefully maybe being able to lead a new project one day
-
- What do you like most about your current or last job
- I honestly love everything about my job and have great time here
- the only thing is i feel that I have learned all I can in that role and are now looking for new challenges.
-
- The most chllenging part i had to over come was fitting these control in the legacy system, working on very lose base requirments from the cutmoer
-this was challenging because the custimer wasnt sure want they wanted so there were many re itterations of itwhile we tested it to gether and
- i would have to come up with  solutions on the fly to give them exactly what they wanted
-
-
 What are the different data types present in C++?
 The 4 data types in C++ are given below:
 
@@ -387,3 +324,80 @@ where as a interface usually only tend to have pure virtual functions only
 what does "THIS" do
  explicitly marks the object members. this->age 
 instead of_age
+
+
+
+
+
+##############ABOUT ME #################
+Tell us about yourself?
+Currently im working in a c++ backend software role doing devlopment for the
+aegis system
+My day consits of wiritng new devlopment features for the system and doing bug fixes, and 
+
+Before this job i was mianly in college working on my CS degree, 
+while also working part time for another company doing C#
+
+currently for my future goals is to find more challeging opputines that can help 
+me grow as a software devloper
+
+Why do you want to work at Comcast?
+I want to work at comcast because comcast seems like an exciting company
+ looking from the outside it seems like theres a lot of oputiny for devlpoment 
+ espically with stream services, and cable tv and movies becoming bigger then ever before
+
+ What is your greatest strength
+I would have to say my greatest strength is never giving up and always trying to 
+aceive contnous growth
+when i recive a problem i always make sure to complete it no matter the challenges
+that it my face, and im always on my free time trying to learn new and more techologies to stay up with current
+times and best partices
+
+
+What is your greatest weakness?
+
+a big weakness of mine is i work to hard, once i find a problem very intresting, and hard to solve, i feel as if i 
+can get every into it, and will continue working until i have figure out the problem.
+Sadly because thois i sometimes will  neglect my friends and family, and other responseabilites
+
+Why should we hire you?
+i believe you should hire me because i already have decent work expirence in 
+c++ and working in a big code base, that is currently moved into micro services
+I have knowedlge of working in a agile envoriment with a team.
+and using version control tools
+with that being said i think my skill set would be a good asset to this position
+
+
+Who are Comcast’s competitors?
+AT&T, Dish, Charter Spectrum, Verizon, T-Mobile (US), EarthLink, Liberty Global.
+
+What motivates you?
+learning new things and tech that is in our field
+Coming up with creative ideas to improve something, or make something new
+Finding a way to solve a problem, or overcome a challenge
+
+ How did you find this job?
+ i beleive it was indeed and then i sumbited my resume from there
+
+ Where do you see yourself in 5 years
+ Currently id see myself hoefully being in a senior role  as a c++ devloper
+ taking on more responsites  and hopefully maybe being able to lead a new project one day
+
+ What do you like most about your current or last job
+ I honestly love everything about my job and have great time here
+ the only thing is i feel that I have learned all I can in that role and are now looking for new challenges.
+
+ The most chllenging part i had to over come was fitting these control in the legacy system, working on very lose base requirments from the cutmoer
+this was challenging because the custimer wasnt sure want they wanted so there were many re itterations of itwhile we tested it to gether and
+ i would have to come up with  solutions on the fly to give them exactly what they wanted
+
+
+##Explain previous projects listed on resume
+
+##Hardest question: finding the number of descendants in a tree structure recursively. 
+##Solution is simple, but can stump even advanced programmers if you are not prepared!
+
+##Difference between interface and abstract class
+
+##Have you had experience with significant change in project or work?
+
