@@ -95,24 +95,24 @@
     - __Method Overriding__
       - The second way to go ahead with polymorphism is method overriding. This is only possible if a subclass ( or ) sister class has the same method as the parent class. Much like Method overloading, there are also some rules for method overriding to work, so if your subclass has a method name function1, then class A, and B inheited or extend that Then they can call that same function however you can changes what that function does when there call so A and B could have two different implimentations of Function 1 and depending on which class is called, Then that implentation of it will happens
 
-    ```cpp
-    // Overloading
-    void print(int x);
-    void print(float x)
-    void print(char* chars)
-    
-    // Overriding
-    class BaseClass {
-      public:
-        virtual void print(); { ... }
-    }
+      ```cpp
+      // Overloading
+      void print(int x);
+      void print(float x)
+      void print(char* chars)
+      
+      // Overriding
+      class BaseClass {
+        public:
+          virtual void print(); { ... }
+      }
 
-    class ChildClass : public BaseClass {
-      public:
-        // Overriding the BaseClass's implimentation
-        void print() { .. };
-    }
-    ```
+      class ChildClass : public BaseClass {
+        public:
+          // Overriding the BaseClass's implimentation
+          void print() { .. };
+      }
+      ```
 
 
 ## Abstract class vs Interface
