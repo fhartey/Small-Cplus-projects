@@ -8,7 +8,7 @@
   - [Ownership](#ownership-models)
   - [Move and Copy Semantics](#move-vs-deep-copy-vs-shallow-copy)
 - [C++ Questions](#c-specific-questions)
-- [Interview Qestions](#interview-questions)
+- [Interview Questions](#interview-questions)
   - [Inital Screening](#initial-screening)
   - [General Questions](#general-interview-questions)
   - [Technical Questions](#technical-querstions)
