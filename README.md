@@ -1,2 +1,2 @@
 # Interview Prep Repo
-- See [his doc](./pointers.md) for details
+- See [this doc](./pointers.md) for details
