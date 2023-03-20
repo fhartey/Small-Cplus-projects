@@ -1,2 +1,2 @@
-# Small-Cplus-projects
-Small C++ projects
+# Interview Prep Repo
+- See [this doc](./pointers.md) for details
